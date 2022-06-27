@@ -1,0 +1,237 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  background: #e82c54;
+  margin: 0 auto;
+  line-height: 20px;
+  align-items: center;
+}
+
+.menu1, .menu3, .menu4, .menu5, .subMenu1 { 
+    background-color: #e82c54; 
+    color: white; 
+    font-family: Century Gothic, CenturyGothic, AppleGothic,       sans-serif; 
+    font-size:15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    border: none; 
+    border-radius: 30px; 
+    width: 90px;
+}
+
+.menu2 {
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+.menu2btn:hover {
+    background-color: #e82c54;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    position: absolute;
+    background-color:#e82c54;
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: #e82c54;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+body {
+  background: #e82c54;
+  margin: 0 auto;
+  min-width:600px;
+  max-width:2000px}
+
+.logo {
+  width: 30%;
+}
+
+.menu2 {
+  background-color: #e82c54;
+  color: white;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  border: none;
+}
+
+.comeceAgora {
+  background-color: #2a2929;
+  color: white;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  padding: 3px;
+  font-variant: normal;
+  margin: 10px;
+  font-weight: 700;
+  line-height: 26.4px;
+  border-color: #E82C54;
+  border-radius: 25px;
+}
+
+.botaoLeiaMais, .botaoCarreiras {
+  color: white; 
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+  font-size:15px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2929; 
+  border-radius: 20px; 
+  padding: 8px;
+}
+
+
+.banner {
+  background: #e82c54;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.component1 {
+  background: #e82c54;
+  display: flex;
+  margin: 0 auto;
+  width: 70%; 
+}
+
+.component2 {
+  background: #e82c54;
+  display: flex;
+  margin: 0 auto;
+  width: 70%; 
+ }
+
+.investir {
+  margin-top: 5%;
+  padding: 50px;
+  background: #2a2929;
+  display: flex;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.botaoFooter {
+    color: white;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    background-color: #e82c54;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    margin: auto auto;
+}
+
+footer {
+    background-color: white; padding-top: 5em; padding-bottom: 40px; border-top: 5px #e82c54; padding: 90px;
+}
+footer h2 {
+   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size:25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; border: none; border-radius: 30px; color: #2a2929; 
+
+}
+footer a {
+    text-decoration: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none; color: #2a2929; font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size:15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.footer-wrapper {
+    display: flex;
+}
+.footer-box {
+    width: 25%; padding: 1%;
+    align-items: center;
+}
+.company-footer {
+    width: 80%;
+}
+.company-footer h2 {
+    margin-top: 20px;
+}
+.company-footer h2, .company-footer p {
+    margin-bottom: 20px;
+}
+.footer-list li {
+    margin-bottom: 15px;
+}
+.footer-list a {
+    transition: 0.5s;
+}
+.footer-list a:hover {
+    color: pink;
+}
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: flex;
+    gap: 10px 15px;
+}
+.articles-footer {
+    width: 80%;
+}
+.footer-list.footer-article-list span {
+    display: flex; float: none;
+}
+.fa {
+    font-size: 30px;
+    margin-right: 10px;
+    float: center;
+}
+.fa-brands {
+    margin-left: 8px;
+    vertical-align: sub;
+}
+.footer-list li span {
+    float: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid pink;
+}
+.footer-bottom p{
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #f7436f;
+}
+
+main {
+  text-align: center;
+}
